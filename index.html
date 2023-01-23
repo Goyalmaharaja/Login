@@ -16,6 +16,7 @@ body{
 
     background: url('./back.jpg');
     background-size: cover;
+
     
 
 }
@@ -25,9 +26,18 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+    position:fixed;
+    background: url('./back.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    opacity: .8;
+    transform-box: content-box;
+    
     
 }
-
+.login:hover{
+    opacity: .7;
+}
 
 .login label{
     padding: 5%;
@@ -39,7 +49,7 @@ body{
     outline: none;
     border: 0;
     border-radius: 5px;
-    opacity: .3;
+    opacity: 1;
     border-top: none;
     border-bottom: 3px solid black;
 
@@ -49,6 +59,7 @@ body{
     padding: 20px;
     font-size: 40px;
     align-items: center;
+    text-align: center;
 }
 button{
     font-size: 13px;
